@@ -1,5 +1,5 @@
 # take note of the BST properties
-# 1. The value of a node must be graeter than all the values to its left AND must be less than or equak to all the values to its right
+# 1. The value of a node must be greater than all the values to its left AND must be less than or equak to all the values to its right
 # 2. The left and right children nodes have to also be BSTs
 # main methods: Insertion, Searching and Deletion
 # average time complexity is O(log(N)) , worst case time = O(N)
@@ -42,8 +42,7 @@ class BST:
         return False
 
 
-    def remove(self, value, parentNode):
-        return self
+    def remove(self, value, parentNode = None):
+        currentNode = self
 
-    def naver(self):
-        pass
+        return self
